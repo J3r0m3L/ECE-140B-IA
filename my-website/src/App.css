@@ -1,5 +1,8 @@
 .background {
-  background-image: url("https://wallpapercave.com/wp/wp7535278.png");
+  background-image: url("Background.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .app {
@@ -14,7 +17,7 @@
 
 .app_body {
   border-radius: 20px;
-  box-shadow: 8px 8px 3px #aaaaaa;
+  box-shadow: 8px 8px 3px #6a6a6a;
   margin: 20px 0;
   background-color:  #f0f7f4;
 }
@@ -34,7 +37,7 @@
 
 .app_team {
   border-radius: 20px;
-  box-shadow: 8px 8px 3px #aaaaaa;
+  box-shadow: 8px 8px 3px #6a6a6a;
   margin: 0 0 20px 0;
   background-color:  #f0f7f4;
 }
@@ -50,7 +53,7 @@
 
 .app_about {
   border-radius: 20px;
-  box-shadow: 8px 8px 3px #aaaaaa;
+  box-shadow: 8px 8px 3px #6a6a6a;
   margin: 0 0 20px 0;
   background-color:  #f0f7f4;
 }
