@@ -1,0 +1,26 @@
+.product {
+    background-color:  #ffe0e8;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px #6a6a6a;
+}
+  
+
+.product > p {
+    font-size: 20px;
+    padding: 0 20px 0;
+}
+
+.product > h2 {
+    padding: 0 20px 0;
+}
+
+.product > h1 {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.product > ul {
+    padding: 0 0 20px 40px;
+}
