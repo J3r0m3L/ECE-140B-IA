@@ -1,20 +1,21 @@
 .home_body {
-  background-color:  #ffe0e8;
+  background-color:  #fefefa;
   width: 600px;
   margin: 0 auto;
   border-radius: 20px;
-  box-shadow: 5px 5px 1px #6a6a6a;
+  box-shadow: 5px 5px 1px #18F2B2;
 }
 
 .home_bodyTitle {
   display: flex;
   justify-content: center;
-  align-items: center;;
+  align-items: center;
 }
 
 .home_bodyTitle > img {
-  height: 70px;
+  height: 50px;
   object-fit: cover;
+  padding: 10px 10px 20px;;
 }
 
 .home_body > p {
@@ -27,3 +28,11 @@
   padding: 20px 0 0 0;
 }
 
+.home_body > ul {
+  margin: 0 0 0 20px;
+  padding: 0 20px 20px 20px;
+}
+
+.home_body li {
+  font-size: 20px;
+}

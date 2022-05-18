@@ -1,7 +1,7 @@
 .navbar {
     color: white;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
     padding: 20px;
     height: 50px;
     display: flex;
@@ -14,7 +14,24 @@
 }
 
 .MuiSvgIcon-root:hover {
-    transition: all 0.5s ease;
-    color: #fa2534;
     cursor: pointer;
+}
+
+.navbar_link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar_link h1 {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 10px;
+    border-bottom: 1px solid transparent;
+    padding: 5px 0;
+}
+
+.navbar_link h1:hover {
+    border-bottom: 1px solid white;
+    transition: all 0.5s ease;
 }

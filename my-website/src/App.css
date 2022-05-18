@@ -3,9 +3,9 @@
 }
 
 .app {
-    background-color: #34312d;
+    background-color: #3E505B;
     margin: 0;
-    position: fixed;
+    padding: 0 0 100px 0;
     top: 0;
     left: 0;
     bottom: 0;

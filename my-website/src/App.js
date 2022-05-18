@@ -5,6 +5,9 @@ import KVP from './KVP.js'
 import Navbar from './Navbar.js'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import UI from './UI.js'
+import IA from './IA.js'
+import ID from './ID.js'
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
             <Routes>
                 <Route path="/kvp" element={<KVP />} />
                 <Route path="/product" element={<Product />} />
+                <Route path="/ui" element={<UI />} />
+                <Route path="/ia" element={<IA />} />
+                <Route path="/id" element={<ID />} />
                 <Route path="/" element={<Home />} />
             </Routes>
         </Router>

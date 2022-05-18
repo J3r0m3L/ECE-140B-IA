@@ -1,0 +1,54 @@
+.ui_block {
+    background-color:  #fefefa;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px #18F2B2;
+}
+  
+
+.ui_block > p {
+    font-size: 20px;
+    padding: 0 20px 0;
+}
+
+.ui_block > h2 {
+    padding: 0 20px 0;
+}
+
+.ui_block > h1 {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.ui_blockUpper {
+    display: flex;
+    justify-content: center;
+}
+
+.ui_blockUpper > img {
+    max-height: 300px;
+    height: 220px;
+    padding: 10px;
+}
+
+.ui_blockLower {
+    display: flex;
+    justify-content: center;
+}
+
+.ui_blockLower > img {
+    height: 300px;
+    padding: 10px;
+}
+
+.ui_blockImage {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.ui_blockImage > img {
+    height: 300px;
+    padding: 20px;
+}

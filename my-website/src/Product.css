@@ -1,26 +1,46 @@
-.product {
-    background-color:  #ffe0e8;
+.product_block {
+    background-color:  #fefefa;
     width: 600px;
     margin: 0 auto;
     border-radius: 20px;
-    box-shadow: 5px 5px 1px #6a6a6a;
+    box-shadow: 5px 5px 1px #18F2B2;
 }
   
 
-.product > p {
+.product_block > p {
     font-size: 20px;
     padding: 0 20px 0;
 }
 
-.product > h2 {
+.product_block > h2 {
     padding: 0 20px 0;
 }
 
-.product > h1 {
+.product_block > h1 {
     text-align: center;
     padding: 20px 0 0 0;
 }
 
-.product > ul {
+.product_block > ul {
     padding: 0 0 20px 40px;
+}
+
+.product_block > table {
+    width: 100%
+}
+
+.product_block tr {
+    margin: 20px;
+}
+
+.product_block th {
+    border-radius: 20px;
+    margin: 5px;
+    width: 50%;
+    vertical-align: top;
+}
+
+.product_block > table li {
+    text-align: left;
+    font-weight: 400;
 }
