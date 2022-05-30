@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import UI from './UI.js'
 import IA from './IA.js'
 import ID from './ID.js'
+import Money from './Money.js'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/ui" element={<UI />} />
                 <Route path="/ia" element={<IA />} />
                 <Route path="/id" element={<ID />} />
+                <Route path="/costs_and_revenue" element={<Money />} />
                 <Route path="/" element={<Home />} />
             </Routes>
         </Router>

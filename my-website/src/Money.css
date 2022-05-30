@@ -1,0 +1,30 @@
+.money_block {
+    background-color:  #fefefa;
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px #18F2B2;
+    padding: 0 0 10px;
+}
+  
+
+.money_block p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.money_block h2 {
+    font-size: 20px;
+}
+
+.money_block li {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.money_block > h1 {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
