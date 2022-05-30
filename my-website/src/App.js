@@ -9,6 +9,7 @@ import UI from './UI.js'
 import IA from './IA.js'
 import ID from './ID.js'
 import Money from './Money.js'
+import Pivot from './Pivot.js'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/ia" element={<IA />} />
                 <Route path="/id" element={<ID />} />
                 <Route path="/costs_and_revenue" element={<Money />} />
+                <Route path="/pivot" element={<Pivot />} />
                 <Route path="/" element={<Home />} />
             </Routes>
         </Router>
